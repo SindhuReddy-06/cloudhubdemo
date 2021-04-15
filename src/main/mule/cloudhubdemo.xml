@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener doc:name="Listener" doc:id="76e7be10-94c0-42cd-abac-07c6d419d06b" config-ref="HTTP_Listener_config" path="/demo"/>
 		<set-payload value="Testing codefetch " doc:name="Set Payload" doc:id="0a6a3d8f-9f0e-4c36-86db-b4fef4e9bc1f" />
 		<logger level="INFO" doc:name="Logger" doc:id="04739692-8dfb-4474-9c60-aa531028a35c" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="031e7e46-2016-45f5-8406-c40f744aca76" message="xyz"/>
 	</flow>
 </mule>
